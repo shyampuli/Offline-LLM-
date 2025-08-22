@@ -15,14 +15,14 @@ It has two modes:
    
 2. Clone this repo and install dependencies:
 
-git clone <your-repo-url>
-cd <repo>
-pip install -r requirements.txt
+   git clone <your-repo-url>
+   cd <repo>
+   pip install -r requirements.txt
 
 3. Start Ollama server (runs on http://localhost:11434 by default):
 
-ollama server
+   ollama server
 
-4.Run the Streamlit app:
+4. Run the Streamlit app:
 
-streamlit run app.py
+   streamlit run app.py
