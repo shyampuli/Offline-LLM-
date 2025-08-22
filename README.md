@@ -12,3 +12,17 @@ It has two modes:
 1. Install [Ollama](https://ollama.ai/download) and pull a model (example):
    ```bash
    ollama pull deepseek-r1:1.5b
+   
+2. Clone this repo and install dependencies:
+
+git clone <your-repo-url>
+cd <repo>
+pip install -r requirements.txt
+
+3. Start Ollama server (runs on http://localhost:11434 by default):
+
+ollama server
+
+4.Run the Streamlit app:
+
+streamlit run app.py
